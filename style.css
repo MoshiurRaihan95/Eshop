@@ -1,0 +1,243 @@
+/* 
+    Created on : Nov-10-2016, 10:13pm
+    Author     : Raihan
+*/
+
+/*========== Global css =====*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: inherit;
+}
+a:focus, a:hover{
+    text-decoration: none ;
+    color: inherit;
+}
+h2{
+    text-align: center;
+    padding: 23px 0 30px 0;
+    margin: 0;
+}
+/*== End Global ===*/
+
+
+/*=========top bar css =============*/
+.top_bar{
+    background-color: #816263;
+    color: white;
+}
+.top_bar .contact-info{
+    padding: 14px 0 0 0;
+}
+.top_bar .login_signup ul li a:hover,.top_bar .login_signup ul li a:focus{
+    background: none;
+}
+/*====end top bar css ====*/
+
+
+/*=========start header css =============*/
+.header{
+    background-color: white;
+    border: 0;
+}
+.header .logo{
+    font-size: 35px;
+    font-family: 'PlayfairDisplay-Regular';
+    font-weight: 100;
+}
+.header .logo a span{
+    color: #816263;
+    border: 2px solid #816263;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 3px;
+    display: inline-block;
+    padding: 13px;
+}
+.navbar-brand{
+    padding: 20px 15px;
+}
+.header .nav{
+    padding: 17px 0 0 0;
+    text-transform: uppercase;
+    color: black;
+}
+.header ul li a{
+    border: 1px solid transparent;
+    transition:all .5s;
+}
+.header ul li a:hover{
+    background: none;
+    border: 1px solid #816263;
+    color: #816263;
+}
+.header ul li a:focus{
+    background: none;
+}
+/*====end header css ====*/
+
+/*=========start slider css =============*/
+.slider .carousel-caption{
+    bottom: 320px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.slider h1{
+    text-transform: uppercase;
+    font-size: 80px;
+}
+.slider h5{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.slider .item .btn{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 0;
+    padding: 15px 30px 15px 30px;
+    transition: all .15s;
+    letter-spacing: 2px;
+}
+.slider .item .btn:hover{
+    color: #816263;
+}
+/*====end slider css ====*/
+
+/*=========start online css =============*/
+.online_strip{
+    margin: 50px 0 30px  0;
+    text-align: center;
+
+}
+.online_strip .online{
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+}
+.online_strip h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'PlayfairDisplay-Regular';
+    line-height: .10cm;
+}
+.online_strip .follow a{
+    padding: 0px 15px 0px 8px;
+    font-size: 20px;
+    color: #337ab7;
+    display: inline-block;
+}
+/*====end online css ====*/
+
+/*====== online product css ======*/
+.online_product h2{
+    text-transform: uppercase;
+    font-family: 'Lato-Regular';
+    padding: 40px 0px 30px 0px;
+}
+.online_product .item .view{
+    position: absolute;
+    top: 34%;
+    left: 42%;
+    margin: auto;
+    padding:10px 15px;
+    background: white;
+    opacity: 0;
+    display: inline-table;
+    transition:all .5s;
+}
+.online_product .item .view:hover{
+    opacity: 1;
+    background-color: #816263;
+    color: white;
+}
+.online_product .item .thumbnail:hover +.view{
+    opacity: 1;
+    border: none;
+}
+.online_product .item .thumbnail{
+    border: none;
+}
+.online_product .item .product{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 0px 71px 0px;
+    font-family: 'Lato-Regular';
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.online_product .item .product .fa{
+    margin: 0px 6px;
+}
+.online_product .item .product .product-name{
+    margin: 15px 0;
+}
+/*===End online product css ===*/
+
+/*====== start collection css======*/
+.collection h2{
+    text-transform: uppercase;
+    font-family: 'Lato-Regular';
+    padding: 00px 0px 50px 0px;
+}
+.collection .thumbnail{
+    border: none;
+}
+/*==== end collection css ===*/
+
+
+/*====== start subcribe css======*/
+.subcribe{
+    background-color: #F7F7F7;
+    padding: 40px 0;
+    font-family: 'PlayfairDisplay-Regular';
+
+}
+.subcribe .join h4{
+    font-size: 22px;
+    color: #000;
+    margin-top: 12px;
+    letter-spacing: 1px;
+}
+.subcribe .join .input{
+    border-radius: 0;
+}
+.subcribe .join .btn{
+    border-radius: 0;
+    background-color: #816263;
+    color: white;
+    padding: 10px 50px;
+    border-color: #816263;
+}
+/*=== end subcribe css===*/
+
+
+/*=== start footer css===*/
+.footer{
+    letter-spacing: 1px;
+    color: #816263;
+}
+.footer h4{
+    font-size: 25px;
+
+}
+.footer .other_info ul li{
+    list-style: none;
+    font-size: 14px;
+}
+footer .item ul{
+    padding: 0px 0px;
+}
+.footer_2{
+    background-color: #816263;
+    padding: 18px 0 10px;
+}
+.footer_2 .content{
+    text-align: center;
+    color: #FFFFFF;
+}
+/*=== end footer css===*/
